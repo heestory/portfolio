@@ -11,7 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="<c:url value="/resources/css/korea.css" />" rel="stylesheet">
-	<title>portfolio</title>
+	<title>JeongHee - Portfolio</title>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -32,13 +32,23 @@
   <div class="row content">
     <div class="col-sm-2 sidenav">
       <img  style="margin-top:20px;" class="img-rounded center-block" src="<c:url value="/resources/image/jh.jpg" />" alt="jh" height="200"> 
-      <ul id="lang" class="nav navbar-nav">
-      	<li><a href="/hee/korea">Korean</a></li>
-      	<li><a href="/hee/english">English</a></li>
-      </ul>
-      	
-      <span class="fa fa-github" style="font-size:20px;color:blue"><a href="https://github.com/heestory" target="_blank">https://github.com/heestory</a></span>
-      <span class="fa fa-home" style="font-size:20px;color:red"><a href="http://heeestorys.tistory.com" target="_blank">http://heeestorys.tistory.com</a></span>
+      <br>
+      <div class="row text-center">
+      	<div class="col-sm-6">
+      		<a href="/hee/korea">Korean</a>
+      	</div>
+      	<div class="col-sm-6">
+      		<a href="/hee/korea">English</a>
+      	</div>
+      </div>
+      <br/>
+      <div class="text-left">
+	      	   <h5><b>이름 : 정희(29)</b></h5>
+	      	   <h5><b>분야 : Java개발, 웹 개발</b></h5>
+	      	   <h5><b>키워드 : 도전, 성장, 실패, 성실, 목표</b></h5>
+      	   <span class="fa fa-github" style="font-size:15px;color:blue"><a href="https://github.com/heestory" target="_blank">https://github.com/heestory</a></span>
+      	   <span class="fa fa-home" style="font-size:15px;color:red"><a href="http://heeestorys.tistory.com" target="_blank">http://heeestorys.tistory.com</a></span>
+      </div>
     </div>
 
     <div class="col-sm-10">
@@ -69,9 +79,9 @@
       <hr>
       <h3>대표 프로젝트</h3>
       <h5><span class="glyphicon glyphicon-time"></span>2015/04~2015/08</h5>
-      <p><a href="#" data-toggle="modal" data-target="#myModal">쇼핑엔티 SI 프로젝트 - TCommerce 기반 시스템 구축(모바일, ARS, SCM, 홈쇼핑)</a></p>
+      <p><a href="#" data-toggle="modal" data-target="#si">쇼핑엔티 SI 프로젝트 - TCommerce 기반 시스템 구축(모바일, ARS, SCM, 홈쇼핑)</a></p>
       <!-- Modal -->
-		<div id="myModal" class="modal fade" role="dialog">
+		<div id="si" class="modal fade" role="dialog">
 		  <div class="modal-dialog modal-lg">
 		
 		    <!-- Modal content-->
@@ -83,11 +93,11 @@
 		      <div class="modal-body">
 		      	<div class="row">
 		      		<div class="col-sm-6">
-		      			<h3 class="text-center">모바일 메인</h2>
+		      			<h3 class="text-center">모바일 메인</h3>
 		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/main.jpg" />" alt="jh" height="300">
 		      		</div>
 		      		<div class="col-sm-6">
-		      			<h3 class="text-center">상품평 페이지</h2>
+		      			<h3 class="text-center">상품평 페이지</h3>
 		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/goods_score.jpg" />" alt="jh" height="300">
 		      		</div>
 		      	</div>
@@ -104,22 +114,325 @@
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
-		
 		  </div>
 		</div>
-      
+      <!-- Modal -->
       <h5><span class="glyphicon glyphicon-time"></span>2016/06~2016/07</h5>
-      <p><a href="#">쇼핑엔티 나이스페이 PG사 인터페이스 연동</a></p>
+      <p><a href="#" data-toggle="modal" data-target="#nice">쇼핑엔티 나이스페이 PG사 인터페이스 연동</a></p>
+      <!-- Modal -->
+		<div id="nice" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">쇼핑엔티 나이스페이 PG사 인터페이스 연동</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-4">
+		      			<h3 class="text-center">NiceModule</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/nicepay_module.png" />" alt="jh" height="100">
+		      		</div>
+		      		<div class="col-sm-8">
+		      			<h3 class="text-center">import</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/nice_import.png" />" alt="jh" height="100" width="400">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 쇼핑엔티 나이스페이 PG사 인터페이스 연동<br/>
+					2) 기간 : 2016년06월~2016년07월<br/>
+					3) 소속회사명 : (주)커머스웨어<br/>
+					4) 주사용기술 : Java, Spring, Oracle, Mybatis, ExtJs<br/>
+					5) 프로젝트 수행 역할<br/>
+					쇼핑엔티 카드 결제/취소 시스템을 PG사인 나이스페이와 연동하는 것이 목표입니다.
+					기존에 쇼핑엔티는 KS페이라는 PG사를 사용하고 있었지만, 이 프로젝트를 통해 나이스페이를 추가적으로 사용하여 장애 발생 시 한쪽으로 유연하게 대처할 수 있도록 프로그램을 구성했습니다.
+					저는 BackOffice 의 결제로직을 담당하여 나이스페이를 추가적으로 연동하는 Java API 부분을 개발 하였습니다. 카드의 결제 인터페이스와 취소 인터페이스를 따로 개발하였고 각 처리가 끝나면 오라클에 해당 정보가 저장되도록 로깅 시스템을 개발하였습니다. 그리고 KS페이와 Nice페이를 이중화하는 작업은 스프링배치를 이용하여 특정 목표 금액에 도달을 하게 되면 자동으로 다른 PG사를 이용할 수 있게 했습니다.
+		      		
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
       <h5><span class="glyphicon glyphicon-time"></span>2016/08~2016/09</h5>
-      <p><a href="#">쇼핑엔티 스윗트렉커 배송추적 인터페이스 연동</a></p>
-      <h5><span class="glyphicon glyphicon-time"></span>2016/10~2017/04</h5>
-      <p><a href="#">BackOffice 단위프로그램 100여개 이상 개발</a></p>
+      <p><a href="#" data-toggle="modal" data-target="#sw">쇼핑엔티 스윗트렉커 배송추적 인터페이스 연동</a></p>
+      <!-- Modal -->
+		<div id="sw" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">쇼핑엔티 스윗트렉커 배송추적 인터페이스 연동</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-12">
+		      			<h3 class="text-center">스윗트렉커 진행 방식</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/sw.png" />" alt="jh" height="300">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 쇼핑엔티 나이스페이 PG사 인터페이스 연동<br/>
+					2) 기간 : 2016년08월~2016년09월<br/>
+					3) 소속회사명 : (주)커머스웨어<br/>
+					4) 주사용기술 : Java, Spring, SpringBatch, Oracle, Mybatis, ExtJs<br/>
+					5) 프로젝트 수행 역할<br/>
+					쇼핑엔티의 새로운 배송추적 사인 스윗트렉커 인터페이스 연동하는 것이 목표입니다
+					저는 SpringBatch와 Java를 이용하여 배송추적 시스템을 연동하였습니다. 출고가 내려진 배송 목록 데이터를 추출하여 스윗트렉커 쪽으로 실시간으로 배치 시스템을 이용하여 요청 보냅니다. 그리고 상품에 대한 배송 정보가 도착하면 그 정보를 이용하여 BackOffice 오라클 DB에 저장하여 상담원 화면에 보일 수 있도록 했습니다. 또한 보내지거나 받아진 데이터를 관리하기 위하여 따로 오라클 테이블을 생성하여 로그 정보를 저장는 로직을 개발 했습니다.
+		      		
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      <h5><span class="glyphicon glyphicon-time"></span>2015/02~2017/04</h5>
+      <p>BackOffice 단위프로그램 100여개 수정/개발</p>
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#sms"> - 대용량SMS 발송</a></p>
+      <!-- Modal -->
+		<div id="sms" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">대용량SMS 발송</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-12">
+		      			<h3 class="text-center">화면</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/mass_sms.png" />" alt="jh" height="400">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 대용량SMS 발송 개발 <br>
+					2) 기간 :2016년03월<br>
+					3) 소속회사명 : 커머스웨어 - 쇼핑엔티<br>
+					4) 주사용기술 : Java, ExtJs, Mybatis, Oracle, IMO, SpringFrame, HTML5, CSS<br>
+					5) 프로젝트 수행 역할<br>
+					엑셀파일 업로드를 이용하여 고객에게 대량으로 SMS를 발송하는 화면입니다. 엑셀파일에는 고객 번호와 문자의 내용을 적을 수 있도록 했습니다. 또한 핸드폰번호, 주문번호, 고객번호 등을 입력하면 해당 번호를 이용하여 자동으로 올바른 핸드폰 번호로 전송되도록 비즈니스 로직을 개발 했습니다.
+					엑셀파일을 읽어오기 위해 hssfworkbook 클래스와 fileIO를 사용했습니다.
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#req"> - 작업요청관리</a></p>
+       <!-- Modal -->
+		<div id="req" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">작업요청관리</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-12">
+		      			<h3 class="text-center">화면</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/req.png" />" alt="jh" height="400">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 작업요청관리 <br>
+					2) 기간 :2016년 05월<br>
+					3) 소속회사명 : 커머스웨어 - 쇼핑엔티<br>
+					4) 주사용기술 : Java, ExtJs, Mybatis, Oracle, IMO, SpringFrame, HTML5, CSS<br>
+					5) 프로젝트 수행 역할<br>
+					현재 백오피스를 이용하는 사용자(현업)의 프로그램에 관련된 요청사항, 혹은 데이터 보정과 데이터 추출 요청을 유선으로 요청받기 보다는 프로그램을 이용하여 간접적으로 전달 받음으로 개발자와 사용자간의 이해관계를 개선시켰습니다.
+					또한 파일업로드 기능을 이용하여 새로운 개발 프로그램회의 전에 사전에 검토하는 방법으로 개발 프로세스의 불필요한 점을 제거 할 수 있었습니다.
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#penelty"> - 배송지연패널티처리</a></p>
+       <!-- Modal -->
+		<div id="penelty" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">배송지연패널티처리</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-12">
+		      			<h3 class="text-center">화면</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/penelty.png" />" alt="jh" height="400">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 배송지연패널티처리 <br>
+					2) 기간 :2016년 10월<br>
+					3) 소속회사명 : 커머스웨어 - 쇼핑엔티<br>
+					4) 주사용기술 : Java, ExtJs, Mybatis, Oracle, IMO, SpringFrame, HTML5, CSS<br>
+					5) 프로젝트 수행 역할<br>
+					배송이 지연되고 있는 주문번호를 조회하여 해당 고객들에게 보상차원의 적립금을 일괄 지급하는 프로그램입니다.
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+       <!-- Modal -->
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#function"> - Oracle(function) - 영업일수계산함수</a></p>
+       <!-- Modal -->
+		<div id="function" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Oracle(function) - 영업일수계산함수</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : FUN_GET_WORKDAY_CNT() <br>
+					2) 기간 :2016년 11월<br>
+					3) 소속회사명 : 커머스웨어 - 쇼핑엔티<br>
+					4) 주사용기술 : Oracle<br>
+					5) 프로젝트 수행 역할<br>
+					오라클에서 영업일수만을 계산하는 함수를 작성했습니다. 특정 기간을 입력받아 사이의 휴일을 제외한 일 수를 반환합니다.
+		      	</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#procedure"> - Oracle(procedure) - 적립금프로시저</a></p>
+       <!-- Modal -->
+		<div id="procedure" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Oracle(procedure) - 적립금프로시저</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : SP_TSAVEGET <br>
+					2) 기간 :2016년 07월<br>
+					3) 소속회사명 : 커머스웨어 - 쇼핑엔티<br>
+					4) 주사용기술 : Oracle<br>
+					5) 프로젝트 수행 역할<br>
+					현업의 요청사항에 따라 해당하는 기간의 고객을 조회하여 적립금을 일괄 지급하는 프로시저입니다.
+		      	</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      <p style="text-indent: 20px;"> - etc</p>
       <hr>
       <h3>개인 프로젝트</h3>
-      <h5><span class="glyphicon glyphicon-time"></span>2017/03~2017/04</h5>
-      <p><a href="#">Firebase + Ionic2 를 이용한 웹앱(더치앱)</a></p>
+      <h5><span class="glyphicon glyphicon-time"></span>2017/02~2017/03</h5>
+      <p><a href="#" data-toggle="modal" data-target="#dutch">Firebase + Ionic2 를 이용한 웹앱(더치앱)</a></p>
+      
+      <!-- Modal -->
+		<div id="dutch" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Firebase + Ionic2 를 이용한 웹앱(더치앱)</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-6">
+		      			<h3 class="text-center">더치앱 메인</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/dutchmain.png" />" alt="jh" height="300">
+		      		</div>
+		      		<div class="col-sm-6">
+		      			<h3 class="text-center">더치앱 계산</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/dutchcal.png" />" alt="jh" height="300">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : Firebase + Ionic2 를 이용한 웹앱- 더치앱 <br>
+					2) 기간 :2017년02월~2017년03월<br>
+					3) 소속회사명 : 개인프로젝트<br>
+					4) 주사용기술 : AngularJs2, Typescript, firebase, ionic2, HTML5, CSS<br>
+					5) 프로젝트 수행 역할<br>
+					친구들 혹은 특정 그룹에서 모임을 할 때, 한명이 대표로 계산을 하는 경우가 많습니다. 이러한 경우 정산을 쉽고 편하게 하기위하여 더치앱을 만들었습니다. 앱을 통하여 당일날 지출한 계산을 쉽게 할 수 있으며 그룹 인원들에게 빠르게 문자를 전송 할 수 있습니다.
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
+      
        <h5><span class="glyphicon glyphicon-time"></span>2016/04~2016/08</h5>
-      <p><a href="#">공원관리프로그램 - Parkunity</a></p>
+      <p><a href="#" data-toggle="modal" data-target="#parkunity">공원관리프로그램 - Parkunity</a></p>
+       <!-- Modal -->
+		<div id="parkunity" class="modal fade" role="dialog">
+		  <div class="modal-dialog modal-lg">
+		
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">공원관리프로그램 - Parkunity</h4>
+		      </div>
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-sm-12">
+		      			<h3 class="text-center">Parkunity 메인</h3>
+		      			<img class="img-rounded center-block" src="<c:url value="/resources/image/parkunuity.png" />" alt="jh" height="300">
+		      		</div>
+		      	</div>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="well  well-lg text-left" >
+		      		1) 프로젝트 명 : 공원관리프로그램 - Parkunity <br>
+					2) 기간 :2016년04월~2017년08월<br>
+					3) 소속회사명 : 개인프로젝트<br>
+					4) 주사용기술 :HTML5, CSS, JSP, Javascript, Java, Springframe, Mybatis, struts2, AWS, mySql, tomcat/apache<br>
+					5) 프로젝트 수행 역할<br>
+					혼자 공원에서 운동하는 사람들, 혹은 공원에서 사람들과 모임을 활성화 하기 위하여 Parkunity라는 웹 페이지를 구성했습니다. 해당 페이지는 동탄 센트럴 파크를 모델로 작성하였고 해당 웹 사이트를 통해 사람들과 친목을 다지고 팀인원이 필요한 운동종목을 어느 누구라도 쉽게 참여하기 위하여 만들었습니다.
+		      	</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      <!-- Modal -->
       <br><br>
        
       <h2><a name="skills" class="fa fa-bar-chart"> Skills</a></h2>
@@ -259,6 +572,18 @@
        <div class="row">
       	<div class="col-sm-1 text-center" >
 	      	<b>AngularJs2</b>
+      	</div>
+      	<div class="cole-sm-11 text-center">
+	      	<div class="progress d-inline" style="width:50%">
+			  <div class="progress-bar progress-bar-success" role="progressbar"
+			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="50" style="width:10%">
+			  </div>
+		    </div>
+        </div>
+      </div>
+       <div class="row">
+      	<div class="col-sm-1 text-center" >
+	      	<b>typescript</b>
       	</div>
       	<div class="cole-sm-11 text-center">
 	      	<div class="progress d-inline" style="width:50%">
