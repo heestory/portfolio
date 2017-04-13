@@ -259,7 +259,7 @@
 					4) 주사용기술 : Java, ExtJs, Mybatis, Oracle, IMO, SpringFrame, HTML5, CSS<br>
 					5) 프로젝트 수행 역할<br>
 					현재 백오피스를 이용하는 사용자(현업)의 프로그램에 관련된 요청사항, 혹은 데이터 보정과 데이터 추출 요청을 유선으로 요청받기 보다는 프로그램을 이용하여 간접적으로 전달 받음으로 개발자와 사용자간의 이해관계를 개선시켰습니다.
-					또한 파일업로드 기능을 이용하여 새로운 개발 프로그램회의 전에 사전에 검토하는 방법으로 개발 프로세스의 불필요한 점을 제거 할 수 있었습니다.
+					또한 파일업로드 기능을 이용하여 새로운 개발관련 회의 전, 미리 자료를 검토하는 방법으로 개발 프로세스의 불필요한 점을 제거 할 수 있었습니다.
 		      	</p>
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
@@ -300,7 +300,7 @@
 		  </div>
 		</div>
        <!-- Modal -->
-      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#function"> - Oracle(function) - 영업일수계산함수</a></p>
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#function"> - Function(Oracle) - 영업일수계산함수</a></p>
        <!-- Modal -->
 		<div id="function" class="modal fade" role="dialog">
 		  <div class="modal-dialog modal-lg">
@@ -308,7 +308,7 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Oracle(function) - 영업일수계산함수</h4>
+		        <h4 class="modal-title">Function(Oracle) - 영업일수계산함수</h4>
 		      </div>
 		      <div class="modal-body">
 		      	<p class="well  well-lg text-left" >
@@ -327,7 +327,7 @@
 		  </div>
 		</div>
       <!-- Modal -->
-      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#procedure"> - Oracle(procedure) - 적립금프로시저</a></p>
+      <p style="text-indent: 20px;"><a href="#" data-toggle="modal" data-target="#procedure"> - Procedure(Oracle) - 적립금프로시저</a></p>
        <!-- Modal -->
 		<div id="procedure" class="modal fade" role="dialog">
 		  <div class="modal-dialog modal-lg">
@@ -335,7 +335,7 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Oracle(procedure) - 적립금프로시저</h4>
+		        <h4 class="modal-title">Procedure(Oracle) - 적립금프로시저</h4>
 		      </div>
 		      <div class="modal-body">
 		      	<p class="well  well-lg text-left" >
