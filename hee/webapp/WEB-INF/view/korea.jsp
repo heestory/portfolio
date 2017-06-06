@@ -44,7 +44,7 @@
       <br/>
       <div class="text-left">
 	      	   <h5><b>이름 : 정희(29)</b></h5>
-	      	   <h5><b>분야 : Java개발, 웹 개발</b></h5>
+	      	   <h5><b>분야 : 웹 개발(Front/Back)</b></h5>
 	      	   <h5><b>키워드 : 도전, 성장, 실패, 성실, 목표</b></h5>
       	   <span class="fa fa-github" style="font-size:15px;color:blue"><a href="https://github.com/heestory" target="_blank">https://github.com/heestory</a></span>
       	   <span class="fa fa-home" style="font-size:15px;color:red"><a href="http://heeestorys.tistory.com" target="_blank">http://heeestorys.tistory.com</a></span>
@@ -56,7 +56,7 @@
       <hr>
       <p class="well well-lg">[One day, One step]
       <br><br>
-개발자란 직업의 가장 큰 특징은 세상을 이롭게 할 수 있는 영향력을 가지고 있으며 인터넷을 통하여 어느 직업보다 빠르게 피드백과 성취감을 느낄 수 있다는 것입니다. 이런 면에서 저는 저의 직업에 큰 만족감을 느끼고 사람들에게 질 좋은 서비스를 제공하기 위하여 지금 이 순간에도 노력하고 있습니다. 'One day, One step' 이것은 제가 개발자의 삶을 시작하면서 가지게 된 목표입니다. 하루에 작은 것이라도 성취하고 도전하는 정신으로 저는 저만의 기술력을 만들고 있습니다. 기술력은 개발자에게 중요한 요소 중 하나입니다. 아무리 좋은 인성과 업무 프로세스를 가지고 있다 하더라도 개인의 기술력이 없이는 살아남을 수 없는 분야가 바로 IT 분야이기 때문입니다.
+개발자란 직업의 가장 큰 특징은 세상을 이롭게 할 수 있는 영향력을 가지고 있으며 인터넷을 통하여 어느 직업보다 빠르게 피드백과 성취감을 느낄 수 있다는 것입니다. 이런 면에서 저는 저의 직업에 큰 만족감을 느끼고 사람들에게 질 좋은 서비스를 제공하기 위하여 지금 이 순간에도 노력하고 있습니다. 'One day, One step' 이것은 제가 개발자의 삶을 시작하면서 가지게 된 목표입니다. 하루에 작은 것이라도 성취하고 도전하는 정신으로 저는 저만의 기술력을 만들고 있습니다.
 <br><br>
 첫째, 다양한 프로젝트를 통한 IT의 실무 능력을 갖추고 있습니다.
 저는 쇼핑엔티 SI프로젝트를 시작으로 PG사 인터페이스 연동, 배송추적사 연동 등의 프로젝트를 통하여 실무에서 사용할 수 있는 Java와 SpringFramework 기술을 습득했습니다. 또한 ExtJs라는 Javascript 프레임워크를 사용함으로써 Javascript의 기본적인 이해와 프레임워크의 사용법을 익혔습니다.
@@ -66,7 +66,7 @@
 무엇인가를 기록한다는 것은 사람에게 있어서 너무 중요한 습관이라고 생각합니다. 특히 기술을 다루는 일에서 자기가 학습한 내용을 기록해 둔다면 특수한 상황에서 필요할 때 바로바로 찾아서 사용할 수 있는 장점이 있습니다. 저는 저의 목표인 'One day, One Step' 을 실천하고자 아주 사소하게 배운 일이라도 블로그에 기록 하기 시작했습니다. 그리고 블로그를 운영한 지 1년이 조금 넘은 시점에서 포스팅 수는 800여 개의 달하며 방문자 수도 평균 150명을 육박하고 있습니다. 그리고 이런 숫자들은 저의 IT 열정과 노력을 대변하는 증거라고 생각합니다. 또한, 배움의 열정으로 매주 화요일마다 열렸던 AngularJs2와 Firebase를 이용한 웹앱 스터디에 참여했습니다. 스터디를 통하여 새로운 언어를 접하는 것은 물론 새로운 사람들과 함께 각자의 영역에서 조언을 구하거나 신기술을 빠르게 습득할 수 있는 기회가 되었습니다.
 <br><br>
 세 번째, 인문학 공부를 통하여 올바른 프로그래머의 길을 탐구합니다.
-개발자에게 필요한 것은 뛰어난 기술력이지만 그와 더불어 인문학을 강조하고 싶습니다. 아무리 좋은 검이라도 잘못 휘두른다면 흉기가 되듯이 어떤 것을 창조하는 사람에게는 올바른 윤리의식과 자신을 점검하고 돌아보는 시간이 필요하다고 생각합니다. 그렇기에 저는 유튜브를 이용한 인문학 강의 혹은 책을 통하여 늦게나마 인문학의 중요성을 느끼고 있습니다. 그리고 개발자가 인문학을 공부함으로써 사용자를 생각하는 개발을 할 수 있고 이기적인 개발자가 아닌 팀을 위할 줄 아는 개발자가 된다고 확신합니다.</p>
+개발자에게 필요한 것은 뛰어난 기술력이지만 그와 더불어 인문학을 강조하고 싶습니다. 아무리 좋은 검이라도 잘못 휘두른다면 흉기가 되듯이 개발에게는 올바른 윤리의식과 자신을 점검하고 돌아보는 시간이 필요하다고 생각합니다. 저는 유튜브를 이용한 인문학 강의 혹은 책을 통하여 인문학의 중요성을 느끼고 있습니다. 그리고 개발자가 인문학을 공부함으로써 사용자를 생각하는 개발을 할 수 있고 이기적인 개발자가 아닌 팀을 위할 줄 아는 개발자가 된다고 확신합니다.</p>
       <br><br>
       
       <h2><a name="career" class="fa fa-keyboard-o"> Career</a></h2>
@@ -576,7 +576,7 @@
       	<div class="cole-sm-11 text-center">
 	      	<div class="progress d-inline" style="width:50%">
 			  <div class="progress-bar progress-bar-success" role="progressbar"
-			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="50" style="width:10%">
+			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="50" style="width:20%">
 			  </div>
 		    </div>
         </div>
@@ -588,7 +588,7 @@
       	<div class="cole-sm-11 text-center">
 	      	<div class="progress d-inline" style="width:50%">
 			  <div class="progress-bar progress-bar-success" role="progressbar"
-			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="50" style="width:10%">
+			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="50" style="width:30%">
 			  </div>
 		    </div>
         </div>

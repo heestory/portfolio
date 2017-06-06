@@ -12,4 +12,10 @@ public class Korea {
 		
 		return "korea";
 	}
+	
+	@RequestMapping("goal")
+	public String goal(){
+		return "goal";
+	}
+	
 }
